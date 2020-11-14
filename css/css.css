@@ -1,0 +1,287 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #34495e;
+    background:#F8F9FC;
+    font-family: arial, sans-serif;
+}
+ol,ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+/*------*/
+#wrapper{
+    height: auto;
+    width: 100%;
+    min-width: 1200px;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td, th {
+  border: 1px solid #949faa;
+  text-align: center;
+  padding: 4px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/*--header--------------*/
+header{
+     -webkit-box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    height: 70px;
+    width: 80%;
+    display: inline-block;
+  /*  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+  linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+  linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  ;*/
+    background:#fff;
+    color: #5F6B77;
+    border-radius: 0px 5px 5px 0px;
+}
+header a{
+ color:#fff;  
+    font-size: 22px;
+}
+header .header_text{
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-left: 100px;
+}
+/*-----end of header------------*/
+
+/*-----side nav-----------*/
+.nav{
+       
+    width: 16%;
+    height:auto;
+    float: left;
+    overflow: hidden;
+  /*  background: 
+  linear-gradient(45deg,  transparent 0%, transparent 57%, #423246 100%),
+  linear-gradient(-45deg, #8f5046 0%,  #A14436 0.3%, #4C2556 112%,  transparent 11% ),
+  linear-gradient(-90deg, #A14436 100%, #A14436 65%, transparent 20% )
+  ;*/
+    background:#141518;/*#3259CA;#00796B; #093F88;*/
+    color: #fff;
+    clear: both;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.nav a{
+     color:#34495e;
+}
+.nav nav button,section .content button{
+      display: block;
+    text-align: center;
+    padding: 12px;
+    width: 141px;
+    margin: 35px 30px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: 700;
+    background: #fff; 
+}
+.nav nav button,section .content button:hover{
+    background: #eee;
+    cursor: pointer;
+}
+.nav nav button img{
+    padding: 10px;
+}
+/*----end of side nav-------*/
+
+
+/*-----middle main content-------*/
+section .content{
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    float: left;
+    min-height: 580px;
+     background: #F8F9FC;
+   /* border: 1px solid red;*/
+    /*float: right;*/
+    
+}
+
+/*---seacrh-----employee and customer--*/
+.search form p{
+font-size:12px;
+    color:red;
+}
+.search form{
+    float: right;
+}
+.search form input[type=text]{
+    width:435px;
+    height:45px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.search form input[type=submit]{
+width:100px;
+    height:45px;
+    cursor:pointer;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.search form input:hover{
+    background: #fff;
+    font-weight: 700;
+}
+
+/*---end of search------*/
+
+/*-------employee_form.php-------------*/
+#form{
+    width:80%;
+    height: auto;
+    background: #eee;
+    border-radius: 5px;
+    float: left;
+    
+}
+#form input,select,span h3{
+    margin-left: 200px;
+}
+#form span h3{
+     margin-left: 200px;  
+}
+#form input{
+       width: 500px;
+    height: 50px;
+    border-radius: 5px;
+}
+#form select{
+       width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+/*-----------end of employee_form.php-----------*/
+
+/*---show_employee--------*/
+
+
+/*--end of show_employee------*/
+
+/*---login_index.php------------*/
+#background{
+   /* background: #333333;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to top, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to top, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-image:url("../images/tea.jpg");
+    width: 100%;
+    height: auto;
+    min-height:655px;
+    overflow: hidden;
+}
+#login{
+width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background:#eee;
+    opacity: 0.8;
+    margin-top: 100px;
+    clear: both;
+    overflow: hidden;
+        border-radius: 5px;
+}
+#login p{
+    font-size: 36px;
+    text-align: center;
+font-family: myriad pro;
+    color: #898585;
+    margin-top: 100px;
+}
+#login input{
+    width: 300px;
+    height: 50px;
+ margin-left: 50px;
+    margin-top: 20px;
+        border-radius: 5px;
+    ###background: #296bbc;
+}
+#login button{
+    background: #093F88;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    color: #fff;
+    margin-left: 50px;
+}
+#content_list ul li .pannel_active{
+	color: #849FC4;
+}
+
+/*------
+.content_box{
+ width: 80%;
+    height: auto;
+    min-height:625px;
+    background: #F2F2F2;
+    float: left;
+    overflow: hidden;
+}
+.content_box h1{
+   color: #093F88;
+    font-family: myriad pro;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px
+}*/
+
+
+/*--attendence and salary page----*/
+.time_button{
+    width: 94%;
+    height: 90px;
+    margin: 20px;
+    padding: 20px;
+    background: #c0392b;
+    border-radius: 5px;
+    
+        -webkit-box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+.content .time_button h3{
+    float: left;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 20px;
+}
+.content .time_button form button{
+    float: left;
+    margin: 18px;
+    padding:10px;
+    font-weight: 700;
+}
+
+.advance_remining_paid{
+    width: 
+}
